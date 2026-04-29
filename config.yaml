@@ -1,0 +1,15 @@
+api:
+  base_url: "https://api.mimo.ai/v1"  # 占位，后续替换为实际云端端点
+  api_key: "YOUR_API_KEY"
+  model: "mimo-pro"
+  max_tokens: 8192
+
+agents:
+  log_parser:
+    temperature: 0.1
+  root_cause:
+    temperature: 0.2
+  fix_gen:
+    temperature: 0.3
+  verifier:
+    temperature: 0.0
